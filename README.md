@@ -1,5 +1,3 @@
-<img src="https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png" alt="Girl in a jacket" style="width:500px;height:600px;">
-<blockquote align="center"> <img src="https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png" alt="Girl in a jacket" style="width:500px;height:600px;"> “Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
 <h3 align="center">
   <strong>CSharp Test</strong>
 </h3>
