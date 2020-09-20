@@ -3,6 +3,7 @@
 </h3>
 
 [![N|Solid](https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png)](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+<img src="https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png" alt="Girl in a jacket" style="width:500px;height:600px;">
 
 ## :rocket: Sobre o teste
 
