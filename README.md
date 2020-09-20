@@ -1,8 +1,16 @@
 <h3 align="center">
   <strong>CSharp Test</strong>
 </h3>
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
 
-<img src="https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png" align="center" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="https://www.mestrephp.com.br/site/wp-content/uploads/2018/10/csharp.png" class="center" alt="Girl in a jacket" style="width:500px;height:600px;">
 
 ## :rocket: Sobre o teste
 
