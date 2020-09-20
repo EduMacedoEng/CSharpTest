@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace teste.Properties
+namespace TesteFortes.Properties
 {
 
 

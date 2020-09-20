@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace teste
+namespace TesteFortes
 {
     class Nota {
         public string idNota { get; set; }

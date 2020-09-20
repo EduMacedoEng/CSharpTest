@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Metodos.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Nota.cs" />
     <Compile Include="Prestador.cs" />
