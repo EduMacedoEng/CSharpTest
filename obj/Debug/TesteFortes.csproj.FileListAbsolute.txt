@@ -1,0 +1,15 @@
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\Database1.mdf
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\Database1_log.ldf
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\teste.exe.config
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\teste.exe
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\teste.pdb
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\TesteFortes.csprojAssemblyReference.cache
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\teste.Form1.resources
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\teste.Properties.Resources.resources
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\TesteFortes.csproj.GenerateResource.cache
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\TesteFortes.csproj.CoreCompileInputs.cache
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\teste.exe
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\teste.pdb
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eduar\source\repos\TesteFortes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eduar\source\repos\TesteFortes\obj\Debug\TesteFortes.csproj.CopyComplete

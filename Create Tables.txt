@@ -1,0 +1,52 @@
+CREATE TABLE [dbo].[Prestador] (
+    [Handle]       INT            IDENTITY (1, 1) NOT NULL,
+    [IdPrestador]  NVARCHAR (20)  NOT NULL,
+    [CNPJ]         NVARCHAR (20)  NOT NULL,
+    [NomeFantasia] NVARCHAR (255) NOT NULL,
+    [RazaoSocial]  NVARCHAR (255) NOT NULL,
+    [Logradouro]   NVARCHAR (255) NOT NULL,
+    [Numero]       NCHAR (10)     NOT NULL,
+    [Bairro]       NVARCHAR (255) NOT NULL,
+    [UF]           NCHAR (2)      NOT NULL,
+    [Cep]          NCHAR (10)     NOT NULL,
+    [Telefone]     NCHAR (20)     NOT NULL,
+    PRIMARY KEY CLUSTERED ([IdPrestador] ASC)
+);
+
+CREATE TABLE [dbo].[Tomador] (
+    [Handle]     INT            IDENTITY (1, 1) NOT NULL,
+    [IdTomador]  NVARCHAR (20)  NOT NULL,
+    [CNPJ_CPF]   NVARCHAR (20)  NOT NULL,
+    [Nome]       NVARCHAR (255) NOT NULL,
+    [Logradouro] NVARCHAR (255) NOT NULL,
+    [Numero]     NCHAR (10)     NOT NULL,
+    [Bairro]     NVARCHAR (255) NOT NULL,
+    [UF]         NCHAR (2)      NOT NULL,
+    [Telefone]   NCHAR (20)     NOT NULL,
+    [Email]      NCHAR (255)    NOT NULL,
+    PRIMARY KEY CLUSTERED ([IdTomador] ASC)
+);
+
+CREATE TABLE [dbo].[Nota] (
+    [Handle]         INT             IDENTITY (1, 1) NOT NULL,
+    [IdNota]         NVARCHAR (20)   NOT NULL,
+    [FkPrestador]    NVARCHAR (20)   NOT NULL,
+    [FkTomador]      NVARCHAR (20)   NOT NULL,
+    [DataLancamento] NVARCHAR (20)   NOT NULL,
+    [Valor]          DECIMAL (18, 2) NOT NULL,
+    PRIMARY KEY CLUSTERED ([IdNota] ASC),
+    FOREIGN KEY ([FkPrestador]) REFERENCES [dbo].[Prestador] ([IdPrestador]),
+    FOREIGN KEY ([FkTomador]) REFERENCES [dbo].[Tomador] ([IdTomador])
+);
+
+CREATE TABLE [dbo].[Item] (
+    [Handle]     INT             IDENTITY (1, 1) NOT NULL,
+    [IdItem]     NVARCHAR (20)   NOT NULL,
+    [NotaFK]     NVARCHAR (20)   NOT NULL,
+    [CodItem]    NVARCHAR (20)   NOT NULL,
+    [Descricao]  NVARCHAR (225)  NOT NULL,
+    [Quantidade] NVARCHAR (225)  NOT NULL,
+    [Valor]      DECIMAL (18, 2) NOT NULL,
+    PRIMARY KEY CLUSTERED ([CodItem]),
+    FOREIGN KEY ([NotaFK]) REFERENCES [dbo].[Nota] ([IdNota])
+);
